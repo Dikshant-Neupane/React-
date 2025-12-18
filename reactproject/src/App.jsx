@@ -27,9 +27,20 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+        <Helloword/>
       </p>
     </>
   )
 }
+const Helloword = () => {
+  return (<div>
+  
+  <h1>Hello function</h1>
+  <p>Made a const function in app.js and called it on className=read-the-docs</p>
+  </div>)
+ 
+}
 
 export default App
+
+
